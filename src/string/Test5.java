@@ -1,3 +1,5 @@
+package string;
+
 import java.util.Scanner;
 
 /**
@@ -17,7 +19,7 @@ public class Test5 {
             String pwd=scanner.next();
             System.out.println("请输入邮箱：");
             String email=scanner.next();
-//            if (name.matches("[A-Za-z0-9_\\-\\u4e00-\\u9fa5]+")&&pwd=="[1-9]\\d*"&&email=="\\w[-\\w.+]*@([A-Za-z0-9][-A-Za-z0-9]+\\.)+[A-Za-z]{2,14}"){
+//            if (name.matches("[A-Za-z0-9_\\-\\u4e00-\\u9fa5]+")&&pwd.matches("[1-9]\\d*")&&email.matches("\\w[-\\w.+]*@([A-Za-z0-9][-A-Za-z0-9]+\\.)+[A-Za-z]{2,14}")){
 //                        System.out.println("成功登陆！");
 //                        break;
 //            }else {

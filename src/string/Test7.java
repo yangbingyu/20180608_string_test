@@ -1,4 +1,4 @@
-import java.util.Scanner;
+package string;
 
 /**
  * Created by dell on 2018/6/8.
@@ -13,7 +13,7 @@ public class Test7 {
 //        Scanner scanner = new Scanner(System.in);
 //        System.out.println("输入纯数字的字符串：");
 //        String string = scanner.next();
-//        Test7 apperaNum = new Test7();
+//        string.Test7 apperaNum = new string.Test7();
 //        apperaNum.appNum(string);
         String target="1239586838923173478943890234092";
         char[] cs=new char[10];
